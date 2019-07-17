@@ -18,11 +18,11 @@ public class User implements Serializable {
     private String userName;
     @Column(nullable = false)
     private String password;
-    @Column(nullable = false, unique = true)
+    @Column(nullable = true)
     private String email;
-    @Column(nullable = true, unique = true)
+    @Column(nullable = true)
     private String nickName;
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String regTime;
 
     public Long getId() {
