@@ -15,8 +15,4 @@ public class SpringbootApplication {
         SpringApplication.run(SpringbootApplication.class, args);
     }
 
-    @RequestMapping("/show")
-    public String show(){
-        return "hello,idea!";
-    }
 }
